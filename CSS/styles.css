@@ -1,0 +1,50 @@
+body {
+  background-color: #393e46;
+  color: #fff;
+  font-family: "Poppins";
+}
+nav {
+  border-bottom: #ffc107 2px solid;
+}
+
+.name {
+  font-family: "Sacramento";
+  font-size: 5.2rem;
+  font-weight: 800;
+  color: #ffc107;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 2rem;
+  border-radius: 60px;
+}
+/*HEADER*/
+#home-header {
+  background: url(../img/animals-6032121_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+#home-header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(26, 25, 25, 0.542);
+}
+#home-header .home-inner {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a {
+  color: #ffc107;
+}
+a:hover {
+  color: #17a2b8;
+}
