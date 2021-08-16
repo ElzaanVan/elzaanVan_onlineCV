@@ -7,13 +7,6 @@ nav {
   border-bottom: #ffc107 2px solid;
 }
 
-.name {
-  font-family: "Sacramento";
-  font-size: 5.2rem;
-  font-weight: 800;
-  color: #ffc107;
-}
-
 a.btn {
   text-decoration: none;
   color: #fff;
@@ -47,4 +40,18 @@ a {
 }
 a:hover {
   color: #17a2b8;
+}
+
+@media (max-width: 628px) {
+  a.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 1.5rem;
+    border-radius: 60px;
+  }
+  h1,
+  p {
+    text-align: center;
+  }
 }
